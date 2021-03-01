@@ -64,14 +64,7 @@ $(document).ready(function() {
       $('#img1').css("opacity", "1")
     }
   });
-  $(document).ready(function () {
-    $('#one').on({
-      mouseenter: function () {
-        $('#img01').css("height", "75px")
-        $('#img01').css("opacity", "1")
-      }
-    });
-  $('#one, #two, #three, #four, #five, #six,#seven,#eight,#nine').on({
+  $('#one, #two, #three, #four, #five, #six, #seven, #eight, #nine').on({
     mouseleave: function(){
     $('figcaption').css("height", "0px")
     $('figcaption').css("opacity", "0")
@@ -79,6 +72,14 @@ $(document).ready(function() {
 
   });
 });
+  $(document).ready(function () {
+    $('#two').on({
+      mouseenter: function () {
+        $('#img01').css("height", "75px")
+        $('#img01').css("opacity", "1")
+      }
+    })
+  });
   $(document).ready(function () {
     $('#two').on({
       mouseenter: function () {
