@@ -117,6 +117,33 @@ $(document).ready(function() {
     }
   })
 });
+
+$(document).ready(function () {
+  $('#seven').on({
+    mouseenter: function () {
+      $('#img7').css("height", "75px")
+      $('#img7').css("opacity", "1")
+    }
+  })
+});
+
+$(document).ready(function () {
+  $('#eight').on({
+    mouseenter: function () {
+      $('#img8').css("height", "75px")
+      $('#img8').css("opacity", "1")
+    }
+  })
+});
+
+$(document).ready(function () {
+  $('#nine').on({
+    mouseenter: function () {
+      $('#img9').css("height", "75px")
+      $('#img9').css("opacity", "1")
+    }
+  })
+});
 // End figcaption animations
 
 // figcaption doesn't show up under 960px. Should get better performance on mobile.
